@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3030;
 
 /* EXPRESS STATIC */
-app.use(express.static('/src/public'));
+app.use(express.static('public'));
 
 /* COLOCACION DE RUTAS */
 app.get('/', (req,res) => res.sendFile(path.join(__dirname,'views','home.html')));

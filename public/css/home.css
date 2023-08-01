@@ -1,3 +1,11 @@
+.home__banner{
+    width: 100%;
+    display: none;
+}
+
+.home__box{
+    margin-top: 30px;
+}
 .home__main {
     background-color: #ffffff;   
     padding: 10px;
@@ -109,6 +117,15 @@ gap: 2%;
  .home__box{
     display: flex;
     justify-content: space-between;
+}
+
+.home__banner{
+    display: block;
+}
+
+.home__banner--img{
+    height: 250px;
+    object-fit: cover;
 }
 
 .home__main {

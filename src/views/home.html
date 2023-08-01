@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,41 @@
             </ul>
         </nav>
     </header>
+    <div class="home__banner">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/banner/banner-img1.jpg" class="d-block w-100 home__banner--img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/banner/banner-img2.jpg" class="d-block w-100 home__banner--img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/banner/banner-img3.jpg" class="d-block w-100 home__banner--img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/banner/banner-img4.jpg" class="d-block w-100 home__banner--img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
 <div class="home__box">
+
     <main class="home__main">
         <article class="home__main__article">
             <img src="/img/img-phone-01.jpg" alt="Imagen phone 1">
@@ -109,5 +144,9 @@
     </section>
     </aside>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="/public/js/glider.js"></script>
+
 </body>
+
 </html>

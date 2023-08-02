@@ -15,6 +15,7 @@ a {
 
 
 body {
+    width: 100%;
     background-image: url('/images/bg-2.png');
     font-family: 'lato';
     max-width: 980px;

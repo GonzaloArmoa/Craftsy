@@ -5,7 +5,7 @@
 
 .home__box {
   margin-top: 30px;
-}
+} 
 
 .home__main {
   background-color: #ffffff;
@@ -19,14 +19,21 @@
   background-color: #ffffff;
 }
 
-.home__carousel__article {
+.home__carousel {
   width: 90%;
+  margin: 0 auto;
+}
+
+.home__carousel__article {
+  width: 100%;
   background-color: #ffffff;
   height: 220px;
 }
+
 .home__carousel__article img {
   width: 100%;
 }
+
 .home__carousel__article h4 {
   margin: 20px 0;
   text-align: center;
@@ -119,6 +126,18 @@
   .home__aside__section--ads img {
     width: 49%;
   }
+
+  .home__carousel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .home__carousel__article {
+    width: 95%;
+    background-color: #ffffff;
+    height: 220px;
+  }
+
 }
 
 @media (min-width: 769px) {

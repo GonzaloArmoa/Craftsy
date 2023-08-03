@@ -107,7 +107,6 @@
   .home__main {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
     gap: 2%;
   }
 
